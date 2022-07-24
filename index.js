@@ -123,7 +123,7 @@ document.addEventListener('keydown', e => {
 	}
 
     if (e.key === 'j') {
-		const frog = document.querySelector('#Bbyxcyyxsyxs-note');
+		const frog = document.querySelector('#Bb-note');
 		if (!frog) {
 			throw new Error(`Element not found, ${e.key}`);
 		}

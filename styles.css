@@ -2,11 +2,6 @@
 box-sizing: border-box;
 }
 
-.backdrop {
-    
-}
-
-
 body {
     background-image: url(sprites/backdrop/background\ bigger.png);
     background-repeat: no-repeat;
@@ -18,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: url(/sprites/backdrop/cursor.png),auto;
 }
 
 
@@ -236,5 +232,21 @@ body {
 }
 
 
+.anleitung {
+    margin: 0 auto;
+    padding: 0;    
+    width: 600px;
+    height: 200px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    line-height: 2mm;
+    color: rgb(161, 153, 182);
+    
 
+    position: fixed;
+    left: 2vh;
+    top: 0vh;
+}
 
