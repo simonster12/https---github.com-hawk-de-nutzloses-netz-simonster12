@@ -2,42 +2,239 @@
 box-sizing: border-box;
 }
 
+.backdrop {
+    
+}
+
+
 body {
-    background-color: #3e8173;
-    margin: 0;
-    min-height: 100vh;
+    background-image: url(sprites/backdrop/background\ bigger.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    object-fit: fill;
+    margin: auto;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .orchestra {
     display: flex;
 }
 
 
-.front {
-    width: 100px;
-    height: 100px;
-    background-color: #42ffad; 
-    border: 5px solid #3e8173;
+#C-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 20vh;
+    top: 43vh;
+
+    background-image: url(sprites/230x230/C_inact_230.png);
+    
 }
 
-.front.active {
-   background-color: red; 
+#C-note.front.active {
+    background-image: url(sprites/230x230/C_act_230.png); 
 }
 
-.back {
-    width: 100px;
-    height: 100px;
-    background-color: #1f7952; 
-    border: 5px solid #3e8173;
-    margin-left: -30px;
-    margin-right: -30px;
-    margin-top: -150px;
-    z-index: 2;
+#Db-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 30vh;
+    top: 24vh;
+    
+    background-image: url(sprites/230x230/Db_inact_230.png);
+    
 }
 
-.back.active {
-    background-color: blue; 
- }
+#Db-note.back.active {
+    background-image: url(sprites/230x230/Db_act_230.png); 
+}
+
+#D-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 40vh;
+    top: 42vh;
+    
+    background-image: url(sprites/230x230/D_inact_230.png);
+    
+}
+
+#D-note.front.active {
+    background-image: url(sprites/230x230/D_act_230.png); 
+}
+
+#Eb-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 50vh;
+    top: 23vh;
+    
+    background-image: url(sprites/230x230/Eb_inact_230.png);
+    
+}
+
+#Eb-note.back.active {
+    background-image: url(sprites/230x230/Eb_act_230.png); 
+}
+
+#E-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 60vh;
+    top: 41vh;
+    
+    background-image: url(sprites/230x230/E_inact_230.png);
+    
+}
+
+#E-note.front.active {
+    background-image: url(sprites/230x230/E_act_230.png); 
+}
+
+#F-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 80vh;
+    top: 40vh;
+    
+    background-image: url(sprites/230x230/F_inact_230.png);
+    
+}
+
+#F-note.front.active {
+    background-image: url(sprites/230x230/F_act_230.png); 
+}
+
+#Gb-note {
+    width: 230px;
+    height: 230px;
+    
+    
+    position: fixed;
+    left: 90vh;
+    top: 22vh;
+    
+    background-image: url(sprites/230x230/Gb_inact_230.png);
+    
+}
+
+#Gb-note.back.active {
+    background-image: url(sprites/230x230/Gb_act_230.png); 
+}
+
+#G-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 100vh;
+    top: 40vh;
+    
+    background-image: url(sprites/230x230/G_inact_230.png);
+    
+}
+
+#G-note.front.active {
+    background-image: url(sprites/230x230/G_act_230.png); 
+}
+
+#Ab-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 110vh;
+    top: 23vh;
+    
+    background-image: url(sprites/230x230/Ab_inact_230.png);
+    
+}
+
+#Ab-note.back.active {
+    background-image: url(sprites/230x230/Ab_act_230.png); 
+}
+
+#A-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 120vh;
+    top: 41vh;
+    
+    background-image: url(sprites/230x230/A_inact_230.png);
+    
+}
+
+#A-note.front.active {
+    background-image: url(sprites/230x230/A_act_230.png); 
+}
+
+#Bb-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 130vh;
+    top: 24vh;
+    
+    background-image: url(sprites/230x230/Bb_inact_230.png);
+    
+}
+
+#Bb-note.back.active {
+    background-image: url(sprites/230x230/Bb_act_230.png); 
+}
+
+#H-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 140vh;
+    top: 42vh;
+    
+    background-image: url(sprites/230x230/H_inact_230.png);
+    
+}
+
+#H-note.front.active {
+    background-image: url(sprites/230x230/H_act_230.png); 
+}
+
+#C1-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 160vh;
+    top: 43vh;
+    
+    background-image: url(sprites/230x230/C1_inact_230.png);
+    
+}
+
+#C1-note.front.active {
+    background-image: url(sprites/230x230/C1_act_230.png); 
+}
+
+
+
+
