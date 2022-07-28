@@ -21,6 +21,86 @@ body {
     display: flex;
 }
 
+#Db-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 30vh;
+    top: 24vh;
+    
+    background-image: url(sprites/230x230/Db_inact_230.png);
+    
+}
+
+#Db-note.back.active {
+    background-image: url(sprites/230x230/Db_act_230.png); 
+}
+
+#Eb-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 50vh;
+    top: 23vh;
+    
+    background-image: url(sprites/230x230/Eb_inact_230.png);
+    
+}
+
+#Eb-note.back.active {
+    background-image: url(sprites/230x230/Eb_act_230.png); 
+}
+
+#Gb-note {
+    width: 230px;
+    height: 230px;
+    
+    
+    position: fixed;
+    left: 90vh;
+    top: 22vh;
+    
+    background-image: url(sprites/230x230/Gb_inact_230.png);
+    
+}
+
+#Gb-note.back.active {
+    background-image: url(sprites/230x230/Gb_act_230.png); 
+}
+
+#Ab-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 110vh;
+    top: 23vh;
+    
+    background-image: url(sprites/230x230/Ab_inact_230.png);
+    
+}
+
+#Ab-note.back.active {
+    background-image: url(sprites/230x230/Ab_act_230.png); 
+}
+
+#Bb-note {
+    width: 230px;
+    height: 230px;
+
+    position: fixed;
+    left: 130vh;
+    top: 24vh;
+    
+    background-image: url(sprites/230x230/Bb_inact_230.png);
+    
+}
+
+#Bb-note.back.active {
+    background-image: url(sprites/230x230/Bb_act_230.png); 
+}
 
 #C-note {
     width: 230px;
@@ -38,22 +118,6 @@ body {
     background-image: url(sprites/230x230/C_act_230.png); 
 }
 
-#Db-note {
-    width: 230px;
-    height: 230px;
-
-    position: fixed;
-    left: 30vh;
-    top: 24vh;
-    
-    background-image: url(sprites/230x230/Db_inact_230.png);
-    
-}
-
-#Db-note.back.active {
-    background-image: url(sprites/230x230/Db_act_230.png); 
-}
-
 #D-note {
     width: 230px;
     height: 230px;
@@ -68,22 +132,6 @@ body {
 
 #D-note.front.active {
     background-image: url(sprites/230x230/D_act_230.png); 
-}
-
-#Eb-note {
-    width: 230px;
-    height: 230px;
-
-    position: fixed;
-    left: 50vh;
-    top: 23vh;
-    
-    background-image: url(sprites/230x230/Eb_inact_230.png);
-    
-}
-
-#Eb-note.back.active {
-    background-image: url(sprites/230x230/Eb_act_230.png); 
 }
 
 #E-note {
@@ -118,23 +166,6 @@ body {
     background-image: url(sprites/230x230/F_act_230.png); 
 }
 
-#Gb-note {
-    width: 230px;
-    height: 230px;
-    
-    
-    position: fixed;
-    left: 90vh;
-    top: 22vh;
-    
-    background-image: url(sprites/230x230/Gb_inact_230.png);
-    
-}
-
-#Gb-note.back.active {
-    background-image: url(sprites/230x230/Gb_act_230.png); 
-}
-
 #G-note {
     width: 230px;
     height: 230px;
@@ -151,22 +182,6 @@ body {
     background-image: url(sprites/230x230/G_act_230.png); 
 }
 
-#Ab-note {
-    width: 230px;
-    height: 230px;
-
-    position: fixed;
-    left: 110vh;
-    top: 23vh;
-    
-    background-image: url(sprites/230x230/Ab_inact_230.png);
-    
-}
-
-#Ab-note.back.active {
-    background-image: url(sprites/230x230/Ab_act_230.png); 
-}
-
 #A-note {
     width: 230px;
     height: 230px;
@@ -181,22 +196,6 @@ body {
 
 #A-note.front.active {
     background-image: url(sprites/230x230/A_act_230.png); 
-}
-
-#Bb-note {
-    width: 230px;
-    height: 230px;
-
-    position: fixed;
-    left: 130vh;
-    top: 24vh;
-    
-    background-image: url(sprites/230x230/Bb_inact_230.png);
-    
-}
-
-#Bb-note.back.active {
-    background-image: url(sprites/230x230/Bb_act_230.png); 
 }
 
 #H-note {
