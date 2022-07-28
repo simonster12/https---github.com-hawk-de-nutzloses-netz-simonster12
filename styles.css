@@ -27,7 +27,7 @@ body {
 
     position: fixed;
     left: 30vh;
-    top: 24vh;
+    top: 20vh;
     
     background-image: url(sprites/230x230/Db_inact_230.png);
     
@@ -43,7 +43,7 @@ body {
 
     position: fixed;
     left: 50vh;
-    top: 23vh;
+    top: 19vh;
     
     background-image: url(sprites/230x230/Eb_inact_230.png);
     
@@ -60,7 +60,7 @@ body {
     
     position: fixed;
     left: 90vh;
-    top: 22vh;
+    top: 18vh;
     
     background-image: url(sprites/230x230/Gb_inact_230.png);
     
@@ -76,7 +76,7 @@ body {
 
     position: fixed;
     left: 110vh;
-    top: 23vh;
+    top: 18vh;
     
     background-image: url(sprites/230x230/Ab_inact_230.png);
     
@@ -92,7 +92,7 @@ body {
 
     position: fixed;
     left: 130vh;
-    top: 24vh;
+    top: 19vh;
     
     background-image: url(sprites/230x230/Bb_inact_230.png);
     
